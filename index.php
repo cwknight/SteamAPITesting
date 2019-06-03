@@ -2,13 +2,7 @@
 <h2>Enter your Steam custom URL for a suggestion</h2>
 
 <form method ="GET" action ="index.php">
-    <input type="text" name="SteamVanityUrlInput" value ="
-	<?php 
-		if (isset($_GET['SteamVanityUrlInput'])) { 
-			echo $_GET['SteamVanityUrlInput'];
-	}
-	?>
-	"/>
+    <input type="text" name="SteamVanityUrlInput" value ="<?php if (isset($_GET['SteamVanityUrlInput'])) {echo $_GET['SteamVanityUrlInput'];}?>"/>
 	<br />
     <input type="submit" value="Submit" /><br />
 </form>
