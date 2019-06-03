@@ -14,7 +14,7 @@
 </form>
 
 <?php 
-	if(isset($_GET['SteamVanityUrlInput'])!= true) {
+	if (isset($_GET['SteamVanityUrlInput'])!= true) {
           echo "You'll need to have set up your custom profile URL for this to work. You can do that on your Steam profile settings page.
 			<br /> A custom URL looks like this: http://steamcommunity.com/id/&lt;YOURCUSTOMID&gt;/. 
 			<br />You'll want to enter the \"&lt;YOURCUSTOMID&gt;\" part into the form above.";
